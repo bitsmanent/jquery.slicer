@@ -1,0 +1,6 @@
+.slicer-wrapper {
+	overflow: hidden;
+	width: 336px;
+	height: 96px;
+}
+.slicer-wrapper .slicer-handle .slicer-item {display:inline-block}
