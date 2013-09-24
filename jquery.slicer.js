@@ -21,7 +21,7 @@ var
 	},
 
 	refresh = function(e) {
-		$(e).width($(e).first().children().outerWidth() * $(e).children().length);
+		$(e).width($(e).first().children().outerWidth(true) * $(e).children().length);
 	},
 
 	update = function(ev) {
